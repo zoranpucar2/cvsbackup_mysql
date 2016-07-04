@@ -1,9 +1,9 @@
 #!/bin/bash
 # $Id: cvsbackup_mysql.sh,v 1.2 2008/11/18 19:45:42 zoran Exp $
-# cvsbackup_mysql - Copyright (C) 2008 Zoran Pucar <zoran@medorian.com>
+# cvsbackup_mysql - Copyright (C) 2008 Zoran Pucar <zoran.pucar@gmail.com>
 
 
-DBS="meddor_en meddor_no"
+DBS="db_en db_no"
 TMPDIR=/tmp/cvsbackupmysql
 BACKUPDIR=/export/backup/cvsbackupmysql
 if [ ! -d $BACKUPDIR ]; then
